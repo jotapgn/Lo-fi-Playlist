@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import BgNotFound from '../BgNotFound'
+// import BgNotFound from '../BgNotFound'
 import foto from '../../assets/img/405.png'
 
 const NotFound = styled.div`

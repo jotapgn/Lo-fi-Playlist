@@ -1,17 +1,250 @@
 {
-    "categorias": [
-        {
-            "id": 1,
-            "nome": "Lo-fi Brazil",
-            "descricao": "Categorias",
-            "cor": "#6BD1FF"
-        },
-        {
-            "id": 2,
-            "nome": "Animes Lo-fi",
-            "descricao": "Categoria",
-            "cor": "#6BD1FF"
-        }
-        
-    ]
+  "categorias": [
+    {
+      "id": 1,
+      "titulo": "Brazil Lo-fi",
+      "cor": "#6BD1FF",
+      "link_extra": {
+        "text": "Formação de Front End na Alura",
+        "url": "https://www.alura.com.br/cursos-online-front-end"
+      }
+    },
+    {
+      "id": 2,
+      "titulo": "Animes Lo-fi",
+      "cor": "#00C86F",
+      "link_extra": {
+        "text": "Cursos de Back End na Alura",
+        "url": "https://www.alura.com.br/cursos-online-programacao"
+      }
+    },
+    {
+      "id": 3,
+      "titulo": "Chill Lo-Fi",
+      "cor": "#6b5be2",
+      "link_extra": {
+        "text": "Cursos de Data Science na Alura",
+        "url": "https://www.alura.com.br/cursos-online-mobile"
+      }
+    },
+    {
+      "id": 4,
+      "titulo": "Lo-fi Games",
+      "cor": "red"
+    },
+    {
+      "id": 5,
+      "titulo": "Slowed and Revarb",
+      "cor": "#00C86F",
+      "link_extra": {
+        "text": "Formação de Jogos na Alura",
+        "url": "https://www.alura.com.br/cursos-online-front-end"
+      }
+    },
+    {
+      "id": 6,
+      "titulo": "Lo-fi Sleep",
+      "cor": "#397FBA"
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "Sozinho - Caetano Veloso [lofi remix]",
+      "url": "https://www.youtube.com/watch?v=Sgg0io-gfaw"
+    },
+    {
+      "id": 2,
+      "categoriaId": 1,
+      "titulo": "lofi hip hop - brazil songs playlist",
+      "url": "https://www.youtube.com/watch?v=ZhstyJSNKME"
+    },
+    {
+      "id": 3,
+      "categoriaId": 1,
+      "titulo": "Você Não Me Ensinou A Te Esquecer - Caetano Veloso [lofi remix]",
+      "url": "https://www.youtube.com/watch?v=xIHNgyXNvLQ"
+    },
+    {
+      "id": 4,
+      "categoriaId": 1,
+      "titulo": "Coração Radiante - Revelação [lofi remix]",
+      "url": "https://www.youtube.com/watch?v=s2HS4s6Mtzo"
+    },
+    {
+      "id": 5,
+      "categoriaId": 1,
+      "titulo": "ＡＬＣＥＵ　ＶＡＬＥＮÇＡ　－　ＡＮＵＮＣＩＡÇÃＯ　[ｌｏｆｉ　ｒｅｍｉｘ]",
+      "url": "https://www.youtube.com/watch?v=V04DdwGTzFw"
+    },
+    {
+      "id": 6,
+      "categoriaId": 1,
+      "titulo": "VOL 2 | lofi hip hop - brazil songs playlist",
+      "url": "https://www.youtube.com/watch?v=NBHJSuau8PQ"
+    },
+    {
+      "id": 7,
+      "categoriaId": 1,
+      "titulo": "São Gonça - Seu Jorge [lofi hiphop remix]",
+      "url": "https://www.youtube.com/watch?v=o8x4JfZGTDA"
+    },
+    {
+      "id": 8,
+      "categoriaId": 2,
+      "titulo": "𝓈𝒽𝒾𝓃𝒾𝓃𝑔 𝒿𝓊𝓈𝓉𝒾𝒸𝑒... | [lofi Great Days]",
+      "url": "https://www.youtube.com/watch?v=k2FTqs3ubo8&list=PL2ySb2Qw7qYsPaYLR_SGYS7Gt4ZWwu1Yi&index=38&t=0s"
+    },
+    {
+      "id": 9,
+      "categoriaId": 2,
+      "titulo": "Sostuo Lo-Fi - Demon Slayer: Kimetsu no Yaiba - loFi Mix",
+      "url": "https://www.youtube.com/watch?v=iFqYpmSslps&list=PL2ySb2Qw7qYsPaYLR_SGYS7Gt4ZWwu1Yi&index=16&t=0s"
+    },
+    {
+      "id": 10,
+      "categoriaId": 2,
+      "titulo": "Cowboy Bebop | Lofi Hiphop & Jazzhop Mix",
+      "url": "https://www.youtube.com/watch?v=vWUHoAGRTHU&list=PL2ySb2Qw7qYsPaYLR_SGYS7Gt4ZWwu1Yi&index=7&t=122s"
+    },
+    {
+      "id": 11,
+      "categoriaId": 2,
+      "titulo": "Bruno's Theme - Lofi remix",
+      "url": "https://www.youtube.com/watch?v=Il9GfOJmoeU"
+    },
+    {
+      "id": 12,
+      "categoriaId": 3,
+      "titulo": "1 hour of aesthetic music",
+      "url": "https://www.youtube.com/watch?v=-ROAj71OiUU&list=PL2ySb2Qw7qYsPaYLR_SGYS7Gt4ZWwu1Yi&index=39&t=49s"
+    },
+    {
+      "id": 13,
+      "categoriaId": 3,
+      "titulo": "SHE'S THE ONE | TOKYO RAIN | LO-FI MIX",
+      "url": "https://www.youtube.com/watch?v=WEZwDXxU70s&list=PL2ySb2Qw7qYsPaYLR_SGYS7Gt4ZWwu1Yi&index=5"
+    },
+    {
+      "id": 14,
+      "categoriaId": 3,
+      "titulo": "LAKEY INSPIRED - Blossom",
+      "url": "https://www.youtube.com/watch?v=B7ArnZl_zBU&list=PL2ySb2Qw7qYsPaYLR_SGYS7Gt4ZWwu1Yi&index=28"
+    },
+    {
+      "id": 15,
+      "categoriaId": 3,
+      "titulo": "Night city lights - [lofi / jazzhop / chill mix]",
+      "url": "https://www.youtube.com/watch?v=B9mEIZ3qMTw&list=PL2ySb2Qw7qYsPaYLR_SGYS7Gt4ZWwu1Yi&index=1"
+    },
+    {
+      "id": 16,
+      "categoriaId": 3,
+      "titulo": "sunset cruisin' (lo-fi , chill mix)",
+      "url": "https://www.youtube.com/watch?v=TZPH3KduU2g&list=PL2ySb2Qw7qYsPaYLR_SGYS7Gt4ZWwu1Yi&index=27"
+    },
+    {
+      "id": 17,
+      "categoriaId": 4,
+      "titulo": "final fantasy ⁷ ~ lofi hip hop mix",
+      "url": "https://www.youtube.com/watch?v=EQwOKQKv4Pg&list=PL2ySb2Qw7qYsPaYLR_SGYS7Gt4ZWwu1Yi&index=36&t=0s"
+    },
+    {
+      "id": 18,
+      "categoriaId": 4,
+      "titulo": "Ｚｅｌｄａｗａｖｅ ＩＩ",
+      "url": "https://www.youtube.com/watch?v=kQXsiJ1lLss&list=PL2ySb2Qw7qYsPaYLR_SGYS7Gt4ZWwu1Yi&index=27&t=0s"
+    },
+    {
+      "id": 19,
+      "categoriaId": 4,
+      "titulo": "ｎｉｎｔｅｎｄｏ　ａｎｄ　ｌｏｆｉ",
+      "url": "https://www.youtube.com/watch?v=AvhplYM46Fc&t=2174s"
+    },
+    {
+      "id": 20,
+      "categoriaId": 4,
+      "titulo": "ｐｌａｙｓｔａｔｉｏｎ　ａｎｄ　ｌｏｆｉ",
+      "url": "https://www.youtube.com/watch?v=ACxbAjr6ecE"
+    },
+    {
+      "id": 21,
+      "categoriaId": 4,
+      "titulo": "persona ⁵ ~ lofi hip hop mix",
+      "url": "https://www.youtube.com/watch?v=BNTHEB_TKiQ&list=PL2ySb2Qw7qYsPaYLR_SGYS7Gt4ZWwu1Yi&index=26&t=0s"
+    },
+    {
+      "id": 22,
+      "categoriaId": 4,
+      "titulo": "ＧＡＭＩＮＧ　ＨＩＧＨ ~ Lofi Video Game Mix",
+      "url": "https://www.youtube.com/watch?v=eHNFSVOeQu8&list=PL2ySb2Qw7qYsPaYLR_SGYS7Gt4ZWwu1Yi&index=9"
+    },
+    {
+      "id": 23,
+      "categoriaId": 5,
+      "titulo": "travis scott - the curse (slowed + reverb)",
+      "url": "https://www.youtube.com/watch?v=7YyRJs4rEog"
+    },
+    {
+      "id": 24,
+      "categoriaId": 5,
+      "titulo": "kanye west - i wonder﹝slowed + reverb﹞!",
+      "url": "https://www.youtube.com/watch?v=tNOlyqLqmdE"
+    },
+    {
+      "id": 25,
+      "categoriaId": 5,
+      "titulo": "labrinth - forever (slowed down)",
+      "url": "https://www.youtube.com/watch?v=d5z5HeXoE-8"
+    },
+    {
+      "id": 26,
+      "categoriaId": 5,
+      "titulo": "Timbaland - The Way I Are (slowed down)",
+      "url": "https://www.youtube.com/watch?v=MRbqr5SnPt0"
+    },
+    {
+      "id": 27,
+      "categoriaId": 5,
+      "titulo": "travis scott - highest in the room﹝slowed + reverb﹞",
+      "url": "https://www.youtube.com/watch?v=uF0M0j5E3H8"
+    },
+    {
+      "id": 28,
+      "categoriaId": 6,
+      "titulo": "Ａ　ＤＡＹ　ＯＦ　ＤＲＥＡＭＳ",
+      "url": "https://www.youtube.com/watch?v=7YNBL6F4IZU"
+    },
+    {
+      "id": 29,
+      "categoriaId": 6,
+      "titulo": "ＤＲＥＡＭＳ",
+      "url": "https://www.youtube.com/watch?v=j7GeEt9yBRA"
+    },
+    {
+      "id": 30,
+      "categoriaId": 6,
+      "titulo": "you left me in the dark. (a sad lofi mix)",
+      "url": "https://www.youtube.com/watch?v=VX-3JRSwNcU"
+    },
+    {
+      "id": 31,
+      "categoriaId": 6,
+      "titulo": "Catching a Vibe / lofi hiphop mix",
+      "url": "https://www.youtube.com/watch?v=wx2SmvQ8dtM&list=PL2ySb2Qw7qYsPaYLR_SGYS7Gt4ZWwu1Yi&index=10"
+    },
+    {
+      "titulo": "Lo fi Magic ~ Lofi Hip Hop Mix",
+      "url": "https://www.youtube.com/watch?v=HlxuWOfm9T4",
+      "categoriaId": 3,
+      "id": 32
+    },
+    {
+      "titulo": "new horizons 🌅 ~ lofi hip hop mix",
+      "url": "https://www.youtube.com/watch?v=XD4YQgwn6fM",
+      "categoriaId": 4,
+      "id": 33
+    }
+  ]
 }

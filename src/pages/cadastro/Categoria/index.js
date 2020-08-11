@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react'
-import PageDefault from '../../../components/PageDefault'
 import { Link } from 'react-router-dom';
+import PageDefault from '../../../components/PageDefault'
 import FormField from '../../../components/FormField';
+import useForm from '../../../hooks/useForm'
 
 function CadastroCategoria() {
     const valoresIniciais = {
@@ -10,24 +11,14 @@ function CadastroCategoria() {
         cor: '',
     }
     const [categorias, setCategorias] = useState([]);
-    const [values, setValues] = useState(valoresIniciais);
+
+    const {handleChange, values, clearForm} = useForm(valoresIniciais)
     
 
-    function setValue(chave, valor){
-        setValues({
-            ...values,
-            [chave]: valor,
-        })
-    }
-    function handleChange(eventInfo) {
-        setValue(
-            eventInfo.target.getAttribute('name'),
-            eventInfo.target.value
-        )
-    }
+   
     useEffect(() => {
         if(window.location.href.includes('localhost')) {
-          const URL = 'http://localhost:8080/categorias'; 
+          const URL = 'http://localhost:8080/categorias'; //https://lo-fi-playlist.herokuapp.com/categorias
           fetch(URL)
            .then(async (respostaDoServer) =>{
             if(respostaDoServer.ok) {
@@ -52,7 +43,6 @@ function CadastroCategoria() {
     // }, []);
 
     return (
-        <div>
             <PageDefault>
                 <h1>Cadastro de Categoria: {values.nome}</h1>
                 <form onSubmit={function handleSubmit(eventInfo) {
@@ -62,7 +52,7 @@ function CadastroCategoria() {
                         values
                     ]);
 
-                    setValues(valoresIniciais)
+                    clearForm(valoresIniciais)
 
                 }}>
                 <FormField
@@ -115,6 +105,7 @@ function CadastroCategoria() {
                         Cadastrar
                     </button>
                 </form>
+                
                 {categorias.length === 0 &&(
                 <div>
                     Loading....
@@ -133,7 +124,6 @@ function CadastroCategoria() {
                     Ir para home
                 </Link>
             </PageDefault>
-        </div>
     )
 }
 

@@ -1,13 +1,15 @@
 import React, { useState, useEffect } from 'react'
-import { Link } from 'react-router-dom';
+import { Link, useHistory } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault'
 import FormField from '../../../components/FormField';
+import H1 from '../../../components/H1'
 import useForm from '../../../hooks/useForm'
+import categoriasRepository from '../../../repositories/categorias'
 
 function CadastroCategoria() {
+    const history = useHistory();
     const valoresIniciais = {
-        nome: '',
-        descricao: '',
+        titulo: '',
         cor: '',
     }
     const [categorias, setCategorias] = useState([]);
@@ -44,7 +46,7 @@ function CadastroCategoria() {
 
     return (
             <PageDefault>
-                <h1>Cadastro de Categoria: {values.nome}</h1>
+                <H1>Cadastro de Categoria: {values.titulo}</H1>
                 <form onSubmit={function handleSubmit(eventInfo) {
                     eventInfo.preventDefault();
                     setCategorias([
@@ -53,21 +55,21 @@ function CadastroCategoria() {
                     ]);
 
                     clearForm(valoresIniciais)
+                    categoriasRepository.create({
+                        titulo: values.titulo,
+                        cor: values.cor,
+                    })
+                        .then(() =>{
+                            history.push('/');
+                            console.log('Cadastrado com suscesso')
+                        });
 
                 }}>
                 <FormField
-                    label="Nome"
+                    label="titulo"
                     type="text"
-                    value={values.nome}
-                    name="nome"
-                    onChange={handleChange}
-                    
-                    />
-                <FormField
-                    label="descricao"
-                    type="textarea"
-                    value={values.descricao}
-                    name="descricao"
+                    value={values.titulo}
+                    name="titulo"
                     onChange={handleChange}
                     
                     />
@@ -79,28 +81,6 @@ function CadastroCategoria() {
                     onChange={handleChange}
                     
                 />
-                {/* <div>
-                    <label>
-                        Descrição:
-                        <textarea
-                            type="text"
-                            value={values.descricao}
-                            name="descricao"
-                            onChange={handleChange}
-                            />
-                    </label>
-                </div> */}
-                {/* <div>
-                    <label>
-                        Cor:
-                        <input
-                            type="color"
-                            value={values.cor}
-                            name="cor"
-                            onChange={handleChange}
-                            />
-                    </label>
-                </div>     */}
                     <button>
                         Cadastrar
                     </button>

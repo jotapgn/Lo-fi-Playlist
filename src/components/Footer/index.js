@@ -10,12 +10,15 @@ const Footer = styled.footer`
   padding-top: 32px;
   padding-bottom: 32px;
   width: 100%;
-    bottom: 0;
-    left: 0;
+  bottom: 0;
+  left: 0;
   color: var(--white);
   text-align: center;
   @media (max-width: 800px) {
-    margin-bottom: 50px;
+    position:relative;
+    margin-bottom: 12px;
+    padding-top: 18px;
+    padding-bottom: 18px;
   }
 
 `;

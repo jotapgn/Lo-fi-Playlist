@@ -12,6 +12,7 @@ const Footer = styled.footer`
   text-align: center;
   @media (max-width: 800px) {
     margin-bottom: 50px;
+    text-align: center;
   }
 
 `;

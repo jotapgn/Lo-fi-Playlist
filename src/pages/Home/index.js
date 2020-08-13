@@ -8,7 +8,6 @@ import BannerMain from '../../components/BannerMain'
 import Carousel from '../../components/Carousel';
 import { Link } from 'react-router-dom';
 import categoriasRepository from '../../repositories/categorias'
-import PageDefault from '../../components/PageDefault'
 // import dadosIniciais from '../../data/initial_data.json'
 //import Link from './components/Link'
 //import HighLight from './components/HighLight'
@@ -54,7 +53,7 @@ function Home() {
               <BannerMain
                 videoTitle={dadosIniciais[0].videos[0].titulo}
                 url={dadosIniciais[0].videos[0].url}
-                videoDescription={dadosIniciais[0].videos[0].description}
+                videoDescription={"Musics Sozinho from Caetano Veloso, with dialogues from the movie Her (2013)"}
               />
               <Carousel
                 ignoreFirstVideo
@@ -71,47 +70,6 @@ function Home() {
           />
         );
       })}
-      {/* <BannerMain
-        videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
-        url={dadosIniciais.categorias[0].videos[0].url}
-        videoDescription={"Musics Sozinho from Caetano Veloso, with dialogues from the movie Her (2013)"}
-      />
-      <Carousel
-        ignoreFirstVideo
-        category={dadosIniciais.categorias[0]}
-      />
-
-      <Carousel
-        category={dadosIniciais.categorias[1]}
-      />
-
-      <Carousel
-        category={dadosIniciais.categorias[2]}
-      />      
-
-      <Carousel
-        category={dadosIniciais.categorias[3]}
-      />      
-
-      <Carousel
-        category={dadosIniciais.categorias[4]}
-      />      
-
-      <Carousel
-        category={dadosIniciais.categorias[5]}
-      />       */}
-
-      {/*<Banner>
-        <Text>
-        <Tag>Front End</Tag>
-        <Title>Sozinho - Caetano Veloso [lofi remix]</Title>
-        <Description>Musics Sozinho from Caetano Veloso, with dialogues from the movie Her (2013)</Description>
-        </Text>
-        
-        <Thumbnail src={thumb1} alt="thumbnail Sozinho - Caetano Veloso [lofi remix]"></Thumbnail>
-      </Banner>*/}
-
-
       <FooterHome>
         <Logo />
         <p>

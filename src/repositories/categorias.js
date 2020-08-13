@@ -24,7 +24,26 @@ function getAllWithVideos(){
          })
 }
 
+function create(objetoCategorias){
+    return fetch(`${URL_CATEGORIES }?_embed=videos`,{
+        method: 'POST',
+        headers: {
+            'Content-type': 'application/json'
+        },
+        body: JSON.stringify(objetoCategorias),
+    })
+    .then(async (respostaDoServer) =>{
+        if(respostaDoServer.ok) {
+            const resposta = await respostaDoServer.json();
+            return resposta; 
+          }
+          throw new Error('Não foi possível cadastrar os dados');
+         })
+}
+
+
 export default{
     getAllWithVideos,
-    getAll 
+    getAll,
+    create 
 }

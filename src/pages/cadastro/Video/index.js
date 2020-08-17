@@ -7,6 +7,13 @@ import Button from '../../../components/Button';
 import H1 from '../../../components/H1'
 import videosRepository from '../../../repositories/videos'
 import categoriasRepository from '../../../repositories/categorias'
+import { Header, Wrapper } from '../../../components/Header'
+import Footer from '../../../components/Footer'
+import Logo from '../../../components/Logo'
+import LogoImersao from '../../../components/LogoImersao'
+import Main from '../../../components/Main'
+import SaveButton from '../../../components/SaveButton'
+import Span from '../../../components/Span'
 
 function CadastroVideo() {
     const history = useHistory();
@@ -30,7 +37,15 @@ function CadastroVideo() {
 
     return (
         <div>
-            <PageDefault>
+            <Header>
+                <Wrapper>
+                    <Link to="/">
+                        <Logo />
+                    </Link>
+                    <Button as={Link} to="/cadastro/categoria">New Tag</Button>
+                </Wrapper>
+            </Header>
+            <Main>
             <H1>Cadastro de Video</H1>
 
             <form onSubmit={(event) => {
@@ -73,16 +88,20 @@ function CadastroVideo() {
                     
                     />
 
-            <Button type="submit">
+            <Link to="/"  style={{ textDecoration: 'none' }}>
+                <Span> Back to Homepage</Span>
+            </Link>
+            <SaveButton type="submit">
                 Cadastrar
-            </Button>
+            </SaveButton>
             </form>
 
-            <Link to="/cadastro/categoria">
-                Cadastrar Categoria
-            </Link>
-
-            </PageDefault>
+            </Main>
+            <Footer>
+                <Logo />
+                <p>
+                    Site made in <a href="https://www.alura.com.br"><LogoImersao /></a></p>
+            </Footer>
             
         </div>
     )

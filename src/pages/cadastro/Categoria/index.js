@@ -5,6 +5,14 @@ import FormField from '../../../components/FormField';
 import H1 from '../../../components/H1'
 import useForm from '../../../hooks/useForm'
 import categoriasRepository from '../../../repositories/categorias'
+import { Header, Wrapper } from '../../../components/Header'
+import Footer from '../../../components/Footer'
+import FooterHome from '../../../components/FooterHome'
+import Logo from '../../../components/Logo'
+import LogoImersao from '../../../components/LogoImersao'
+import Main from '../../../components/Main'
+import Button from '../../../components/Button'
+
 
 function CadastroCategoria() {
     const history = useHistory();
@@ -45,7 +53,16 @@ function CadastroCategoria() {
     // }, []);
 
     return (
-            <PageDefault>
+        <div>
+            <Header>
+                <Wrapper>
+                    <Link to="/">
+                        <Logo />
+                    </Link>
+                    <Button as={Link} to="/cadastro/video">New Video</Button>
+                </Wrapper>
+            </Header>
+            <Main>
                 <H1>Cadastro de Categoria: {values.titulo}</H1>
                 <form onSubmit={function handleSubmit(eventInfo) {
                     eventInfo.preventDefault();
@@ -103,7 +120,13 @@ function CadastroCategoria() {
                 <Link to="/">
                     Ir para home
                 </Link>
-            </PageDefault>
+            </Main>
+                <Footer>
+                <Logo />
+                <p>
+                    Site made in <a href="https://www.alura.com.br"><LogoImersao /></a></p>
+            </Footer>
+            </div>
     )
 }
 

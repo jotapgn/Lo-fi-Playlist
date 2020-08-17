@@ -63,7 +63,7 @@
     {
       "id": 3,
       "categoriaId": 1,
-      "titulo": "Você Não Me Ensinou A Te Esquecer - Caetano Veloso [lofi remix]",
+      "titulo": "Você Não Me Ensinou A Te Esquecer - Caetano Veloso [lo-fi]",
       "url": "https://www.youtube.com/watch?v=xIHNgyXNvLQ"
     },
     {
@@ -75,8 +75,8 @@
     {
       "id": 5,
       "categoriaId": 1,
-      "titulo": "ＡＬＣＥＵ　ＶＡＬＥＮÇＡ　－　ＡＮＵＮＣＩＡÇÃＯ　[ｌｏｆｉ　ｒｅｍｉｘ]",
-      "url": "https://www.youtube.com/watch?v=V04DdwGTzFw"
+      "titulo": "Mas Que Nada - Sergio Mendes [lofi hiphop remix]",
+      "url": "https://www.youtube.com/watch?v=xoB0Xkxb84Q"
     },
     {
       "id": 6,
@@ -245,6 +245,18 @@
       "url": "https://www.youtube.com/watch?v=XD4YQgwn6fM",
       "categoriaId": 4,
       "id": 33
+    },
+    {
+      "titulo": "naruto 🍜 🎴 ~ lofi hip hop mix",
+      "url": "https://www.youtube.com/watch?v=XjwSMwwUEag",
+      "categoriaId": 2,
+      "id": 34
+    },
+    {
+      "titulo": "songs that will put you to sleep 💤",
+      "url": "https://www.youtube.com/watch?v=dissKS5KH8U",
+      "categoriaId": 6,
+      "id": 35
     }
   ]
 }

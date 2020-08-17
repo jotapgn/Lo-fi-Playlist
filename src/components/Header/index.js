@@ -39,7 +39,7 @@ export const Wrapper = styled.div`
             right: 0;
             width: 100%;
             text-align: center;
-            z-index: 3;
+            z-index: 52;
         }
     }
     

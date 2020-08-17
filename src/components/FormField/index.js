@@ -4,6 +4,10 @@ import styled, { css } from 'styled-components';
 
 
 const FormFieldWrapper = styled.div`
+margin-top: 18px;
+width: 900px;
+margin-left: auto;
+margin-right: auto;
 position: relative;
   textarea {
     min-height: 150px;
@@ -14,7 +18,9 @@ position: relative;
 `;
 
 
-const Label = styled.label``;
+const Label = styled.label`
+  
+`;
 Label.Text = styled.span`
   color: #E5E5E5;
   height: 57px;
@@ -38,9 +44,8 @@ background: #53585D;
   color: #F5F5F5;
   display: block;
   width: 100%;
-  height: 57px;
+  height: 28px;
   font-size: 18px;
-  
   outline: 0;
   border: 0;
   border-top: 4px solid transparent;
@@ -53,6 +58,10 @@ background: #53585D;
   border-radius: 4px;
   transition: border-color .3s;
   
+  &:not([type='text']){
+    width: 97.5%;
+  }
+
   &:focus {
     border-bottom-color: var(--primary);
   }
@@ -88,6 +97,7 @@ function FormField({ label,type, value, name, onChange, suggestions }) {
                     name={name}
                     hasValue={hasValue}
                     onChange={onChange}
+                    required
                     autoComplete={hasSuggestions ? 'off' : 'on'}
                     list={`suggestionFor_${fieldId}`}
                 />

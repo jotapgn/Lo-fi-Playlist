@@ -17,8 +17,13 @@ const Footer = styled.footer`
   @media (max-width: 800px) {
     position:relative;
     margin-bottom: 12px;
-    padding-top: 18px;
-    padding-bottom: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
 
 `;

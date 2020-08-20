@@ -13,7 +13,18 @@ position: relative;
     min-height: 150px;
   }
   input[type="color"] {
-    padding-left: 56px;
+    padding-left: 41px;
+  }
+
+@media(max-width: 800px){
+  max-width: 285px;
+  margin-left: auto;
+  margin-right: auto;
+
+  input[type="color"] {
+    padding-left: 50px;
+    max-width: 252px;
+  }
   }
 `;
 

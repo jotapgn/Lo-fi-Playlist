@@ -17,7 +17,9 @@ color: #2A7AE4;
 &:hover{
     text-decoration-line: underline;
 }
-
+@media(max-width:800px){
+    display:none;
+}
 
 `
 

@@ -23,6 +23,11 @@ const SaveButton = styled.button`
     &:focus {
         opacity: .5;
     }
+    @media(max-width:800px){
+        min-width: 20px;
+        /* margin-right: 50%; */
+        margin-bottom: 14px;
+    }
 `
 
 export default SaveButton;

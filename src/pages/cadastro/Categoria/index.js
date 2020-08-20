@@ -12,6 +12,8 @@ import Logo from '../../../components/Logo'
 import LogoImersao from '../../../components/LogoImersao'
 import Main from '../../../components/Main'
 import Button from '../../../components/Button'
+import SaveButton from '../../../components/SaveButton'
+import Span from '../../../components/Span'
 
 
 function CadastroCategoria() {
@@ -98,9 +100,12 @@ function CadastroCategoria() {
                     onChange={handleChange}
                     
                 />
-                    <button>
-                        Cadastrar
-                    </button>
+                    <Link to="/"  style={{ textDecoration: 'none' }}>
+                <Span> Back to Homepage</Span>
+            </Link>
+            <SaveButton type="submit">
+                Cadastrar
+            </SaveButton>
                 </form>
                 
                 {categorias.length === 0 &&(
@@ -117,9 +122,6 @@ function CadastroCategoria() {
                         )
                     })}
                 </ul>
-                <Link to="/">
-                    Ir para home
-                </Link>
             </Main>
                 <Footer>
                 <Logo />

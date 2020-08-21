@@ -11,7 +11,7 @@ const SaveButton = styled.button`
     font-style: normal;
     text-align: center;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 20px;
     outline: none;
     border-radius: 5px;
     text-decoration: none;
@@ -24,7 +24,9 @@ const SaveButton = styled.button`
         opacity: .5;
     }
     @media(max-width:800px){
-        min-width: 20px;
+        display: block; 
+        margin: 0 auto;
+        min-width: 10px;
         /* margin-right: 50%; */
         margin-bottom: 14px;
     }

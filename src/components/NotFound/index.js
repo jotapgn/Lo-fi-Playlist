@@ -8,6 +8,9 @@ position: absolute;
 width: 100%;
 height: 100%;
 background-size: cover;
+@media(max-width:800px){
+    height: 80%;
+}
  
 `
 

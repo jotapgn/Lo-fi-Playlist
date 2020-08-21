@@ -38,3 +38,8 @@ Executar:
 $ yarn start 
 ou 
 $ npm start
+```
+## :pencil:License
+[MIT LICENSE](LICENSE)
+
+

@@ -1,5 +1,4 @@
 import React, { useEffect, useState} from 'react'
-import PageDefault from '../../../components/PageDefault'
 import { Link, useHistory } from 'react-router-dom';
 import useForm from '../../../hooks/useForm';
 import FormField from '../../../components/FormField';
@@ -46,7 +45,7 @@ function CadastroVideo() {
                 </Wrapper>
             </Header>
             <Main>
-            <H1>Cadastro de Video</H1>
+            <H1>Add new Video</H1>
 
             <form onSubmit={(event) => {
                 event.preventDefault();
@@ -66,7 +65,7 @@ function CadastroVideo() {
                     });
             }}> 
             <FormField
-                    label="Título do Vídeo "
+                    label="Video Title"
                     value={values.titulo}
                     name="titulo"
                     onChange={handleChange}
@@ -80,7 +79,7 @@ function CadastroVideo() {
                     
                     />
             <FormField
-                    label="Categoria"
+                    label="Tag"
                     value={values.categoria}
                     name="categoria"
                     onChange={handleChange}
@@ -92,7 +91,7 @@ function CadastroVideo() {
                 <Span> Back to Homepage</Span>
             </Link>
             <SaveButton type="submit">
-                Cadastrar
+                Save
             </SaveButton>
             </form>
 

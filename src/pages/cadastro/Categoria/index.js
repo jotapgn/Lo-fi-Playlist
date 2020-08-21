@@ -1,13 +1,11 @@
 import React, { useState, useEffect } from 'react'
 import { Link, useHistory } from 'react-router-dom';
-import PageDefault from '../../../components/PageDefault'
 import FormField from '../../../components/FormField';
 import H1 from '../../../components/H1'
 import useForm from '../../../hooks/useForm'
 import categoriasRepository from '../../../repositories/categorias'
 import { Header, Wrapper } from '../../../components/Header'
 import Footer from '../../../components/Footer'
-import FooterHome from '../../../components/FooterHome'
 import Logo from '../../../components/Logo'
 import LogoImersao from '../../../components/LogoImersao'
 import Main from '../../../components/Main'
@@ -65,7 +63,7 @@ function CadastroCategoria() {
                 </Wrapper>
             </Header>
             <Main>
-                <H1>Cadastro de Categoria: {values.titulo}</H1>
+                <H1>Add new Tag: {values.titulo}</H1>
                 <form onSubmit={function handleSubmit(eventInfo) {
                     eventInfo.preventDefault();
                     setCategorias([
@@ -85,7 +83,7 @@ function CadastroCategoria() {
 
                 }}>
                 <FormField
-                    label="titulo"
+                    label="Title"
                     type="text"
                     value={values.titulo}
                     name="titulo"
@@ -93,7 +91,7 @@ function CadastroCategoria() {
                     
                     />
                 <FormField
-                    label="cor"
+                    label="Color"
                     type="color"
                     value={values.cor}
                     name="cor"
@@ -104,11 +102,11 @@ function CadastroCategoria() {
                 <Span> Back to Homepage</Span>
             </Link>
             <SaveButton type="submit">
-                Cadastrar
+                Save
             </SaveButton>
                 </form>
                 
-                {categorias.length === 0 &&(
+                {/* {categorias.length === 0 &&(
                 <div>
                     Loading....
                 </div>
@@ -121,7 +119,7 @@ function CadastroCategoria() {
                             </li>
                         )
                     })}
-                </ul>
+                </ul> */}
             </Main>
                 <Footer>
                 <Logo />

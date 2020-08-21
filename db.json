@@ -3,29 +3,17 @@
     {
       "id": 1,
       "titulo": "Brazil Lo-fi",
-      "cor": "#6BD1FF",
-      "link_extra": {
-        "text": "Formação de Front End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
-      }
+      "cor": "#6BD1FF"
     },
     {
       "id": 2,
       "titulo": "Animes Lo-fi",
-      "cor": "#00C86F",
-      "link_extra": {
-        "text": "Cursos de Back End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
-      }
+      "cor": "#00C86F"
     },
     {
       "id": 3,
       "titulo": "Chill Lo-Fi",
-      "cor": "#6b5be2",
-      "link_extra": {
-        "text": "Cursos de Data Science na Alura",
-        "url": "https://www.alura.com.br/cursos-online-mobile"
-      }
+      "cor": "#6b5be2"
     },
     {
       "id": 4,
@@ -35,11 +23,7 @@
     {
       "id": 5,
       "titulo": "Slowed and Revarb",
-      "cor": "#00C86F",
-      "link_extra": {
-        "text": "Formação de Jogos na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
-      }
+      "cor": "#00C86F"
     },
     {
       "id": 6,

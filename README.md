@@ -39,7 +39,7 @@ $ yarn start
 ou 
 $ npm start
 ```
-## :pencil:License
+## :scroll:License
 [MIT LICENSE](LICENSE)
 
 

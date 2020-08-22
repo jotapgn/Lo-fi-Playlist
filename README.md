@@ -4,7 +4,7 @@
 
 ## :pushpin:Sobre
 
-O [Lo-Fi-Playlist](https://lo-fi-playlist.vercel.app/) é uma aplicação web desenvolvida com base no layout da Netflix, utilizando o ReactJS.Projeto desenvolvido durante a Imersão React da [Alura](https://www.alura.com.br/).
+O [Lo-Fi-Playlist](https://lo-fi-playlist.vercel.app/) é uma aplicação web desenvolvida com base no layout da Netflix, utilizando o ReactJS. Projeto desenvolvido durante a Imersão React da [Alura](https://www.alura.com.br/).
 
 ## :gear:Objetivo
 

@@ -8,6 +8,7 @@ import BannerMain from '../../components/BannerMain'
 import Carousel from '../../components/Carousel';
 import { Link } from 'react-router-dom';
 import categoriasRepository from '../../repositories/categorias'
+import Loading from '../../components/Loading'
 // import dadosIniciais from '../../data/initial_data.json'
 //import Link from './components/Link'
 //import HighLight from './components/HighLight'
@@ -44,7 +45,7 @@ function Home() {
           <Button as={Link} to="/cadastro/video">New Vídeo</Button>
         </Wrapper>
       </Header>
-      {dadosIniciais.length === 0 && (<div>Loading...</div>)}
+      {dadosIniciais.length === 0 && (<Loading />)}
 
       {dadosIniciais.map((categoria, indice) => {
         if (indice === 0) {

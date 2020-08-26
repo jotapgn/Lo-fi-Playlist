@@ -10,14 +10,7 @@ import { Link } from 'react-router-dom';
 import categoriasRepository from '../../repositories/categorias'
 import Loading from '../../components/Loading'
 // import dadosIniciais from '../../data/initial_data.json'
-//import Link from './components/Link'
-//import HighLight from './components/HighLight'
-//import { Banner, Text } from './components/Banner'
-//import Tag from './components/Tag'
-//import Title from './components/Title'
-//import Description from './components/Description'
-//import Thumbnail from './components/Thumbnail'
-//import thumb1 from './assets/img/thumb1.jpg'
+
 
 function Home() {
 

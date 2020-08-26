@@ -1,6 +1,5 @@
 import React from 'react';
 import NotFound from '../../components/NotFound'
-// import foto from '../../assets/img/405.png'
 import PageDefault from '../../components/PageDefault'
 import Square from '../../components/Square'
 import Number from '../../components/Number'

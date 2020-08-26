@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 
 const Loading = styled.div`
-  border: 16px solid #121212;
+  border: 16px solid var(--black);
   border-radius: 50%;
-  border-top: 16px solid #7535D4;
+  border-top: 16px solid var(--primary);
   width: 100px;
   height: 100px;
   margin-top: 250px;

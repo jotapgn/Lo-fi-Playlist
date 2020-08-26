@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import foto from '../../assets/img/405.png'
+import foto from '../../assets/img/404.png'
 
 
 const BgNotFound = styled.img.attrs({src: foto, alt: 'Logo Lo-FI PLaylist'})`

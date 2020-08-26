@@ -1,12 +1,11 @@
 import styled from 'styled-components';
-//import Logo from '../Logo'
 
 const Footer = styled.footer`
   background: var(--black);
   border-top: 4px solid var(--primary);
   position: fixed;
   padding-left: 16px;
-  padding-right: 16px;
+  padding-right: 10px;
   padding-top: 32px;
   padding-bottom: 32px;
   width: 100%;

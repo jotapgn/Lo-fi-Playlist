@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-//import Logo from '../Logo'
 
 const Footer = styled.footer`
   background: var(--black);

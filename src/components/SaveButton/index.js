@@ -27,7 +27,6 @@ const SaveButton = styled.button`
         display: block; 
         margin: 0 auto;
         min-width: 10px;
-        /* margin-right: 50%; */
         margin-bottom: 14px;
     }
 `

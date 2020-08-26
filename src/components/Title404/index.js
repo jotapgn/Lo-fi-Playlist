@@ -9,7 +9,7 @@ font-size: 100px;
 line-height: 24px;
 align-items: center;
 text-align: center;
-color: #FFFFFF;
+color: var(--white);
 margin: 150px auto;
 -webkit-text-stroke: 5px black;
 @media(max-width:800px){

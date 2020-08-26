@@ -1,6 +1,5 @@
 import styled from 'styled-components';
-// import BgNotFound from '../BgNotFound'
-import foto from '../../assets/img/405.png'
+import foto from '../../assets/img/404.png'
 
 const NotFound = styled.div`
 background-image: url(${foto});

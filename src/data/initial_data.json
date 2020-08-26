@@ -2,12 +2,7 @@
     "categorias": [
       {
         "titulo": "Brazil Lo-fi",
-        "link": "https://www.alura.com.br/formacao-front-end",
         "cor": "#6BD1FF",
-        "link_extra": {
-          "text": "Formação de Front End na Alura",
-          "url": "https://www.alura.com.br/cursos-online-front-end"
-        },
         "videos": [
           {
             "titulo": "Sozinho - Caetano Veloso [lofi remix]",
@@ -42,10 +37,6 @@
       {
         "titulo": "Animes Lo-fi",
         "cor": "#1de9b6",
-        "link_extra": {
-          "text": "Cursos de Data Science na Alura",
-          "url": "https://www.alura.com.br/formacao-data-science"
-        },
         "videos": [
           {
             "titulo": "𝓈𝒽𝒾𝓃𝒾𝓃𝑔 𝒿𝓊𝓈𝓉𝒾𝒸𝑒... | [lofi Great Days]",
@@ -72,10 +63,6 @@
       {
         "titulo": "Chill Lo-Fi",
         "cor": "#6b5be2",
-        "link_extra": {
-          "text": "Curso sobre aprendizado na Alura",
-          "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
-        },
         "videos": [
           {
             "titulo": "1 hour of aesthetic music",
@@ -102,10 +89,6 @@
       {
         "titulo": "Lo-fi Games",
         "cor": "red",
-        "link_extra": {
-          "text": "Formação de Jogos na Alura",
-          "url": "https://www.alura.com.br/formacao-jogos-unity"
-        },
         "videos": [
           {
             "titulo": "final fantasy ⁷ ~ lofi hip hop mix",
@@ -136,10 +119,6 @@
       {
         "titulo": "Slowed and Revarb",
         "cor": "#00C86F",
-        "link_extra": {
-          "text": "Cursos de Back End na Alura",
-          "url": "https://www.alura.com.br/cursos-online-programacao"
-        },
         "videos": [
           {
             "titulo": "travis scott - the curse (slowed + reverb)",

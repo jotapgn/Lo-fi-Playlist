@@ -1,5 +1,5 @@
 <p align='center'>
-<img src="src/assets/img/logo2.png" width="397px">
+<img src="src/assets/img/logo.png" width="397px">
 </p>
 
 ## :pushpin:Sobre
